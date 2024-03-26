@@ -70,8 +70,8 @@ function LandingPage() {
             {/* devider */}
             <div className='bg-[#282828] h-2 w-full'></div>
 
-            <div className='container-fluid min-h-screen bg-black'>
-                <div className='row w-full relative text-white m-0 px-2 lg:px-2 py-14'>
+            <div className='container-fluid bg-black'>
+                <div className='row w-full relative text-white m-0 px-2 lg:px-2 py-[1.75rem] lg:py-14'>
                     <div className='col-md-6 mb-1 lg:mb=0 text-position'>
                         <div className='h-full w-full flex flex-col justify-center '>
                             <h2 className=' text-3xl lg:text-5xl font-extrabold mb-3'>Enjoy on your TV</h2>
@@ -91,8 +91,8 @@ function LandingPage() {
             </div>
             <div className='bg-[#282828] h-2 w-full'></div>
 
-            <div className='container-fluid min-h-screen bg-black p-0'>
-                <div className='row flex-row-reverse w-full relative text-white m-0 px-2 lg:px-2 py-14'>
+            <div className='container-fluid bg-black p-0'>
+                <div className='row flex-row-reverse w-full relative text-white m-0 px-2 lg:px-2 py-[1.75rem] lg:py-14'>
                     <div className='col-md-6 order-2'>
                         <div className='h-full w-full flex flex-col items-start justify-center mask'>
                             <img src={img1} />
@@ -110,8 +110,8 @@ function LandingPage() {
 
             <div className='bg-[#282828] h-2 w-full'></div>
 
-            <div className='container-fluid min-h-screen bg-black'>
-                <div className='row w-full relative text-white m-0 px-2 lg:px-2 py-14'>
+            <div className='container-fluid bg-black'>
+                <div className='row w-full relative text-white m-0 px-2 lg:px-2 py-[1.75rem] lg:py-14'>
                     <div className='col-md-6 mb-1 lg:mb=0 text-position'>
                         <div className='h-full w-full flex flex-col justify-center '>
                             <h2 className=' text-3xl lg:text-5xl font-extrabold mb-3'>Watch everywhere</h2>
@@ -129,8 +129,8 @@ function LandingPage() {
             </div>
             <div className='bg-[#282828] h-2 w-full'></div>
 
-            <div className='container-fluid min-h-screen bg-black p-0'>
-                <div className='row flex-row-reverse w-full relative text-white m-0 px-2 lg:px-2 py-14'>
+            <div className='container-fluid bg-black p-0'>
+                <div className='row flex-row-reverse w-full relative text-white m-0 px-2 lg:px-2 py-[1.75rem] lg:py-14'>
                     <div className='col-md-6 order-2'>
                         <div className='h-full w-full flex flex-col items-start justify-center mask'>
                             <img src={kidsImage} />
