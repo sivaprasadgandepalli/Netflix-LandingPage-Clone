@@ -10,12 +10,15 @@ import tv2 from "../assets/tv-2.png";
 import kidsImage from "../assets/netflixKids.png";
 import Faqsection from './faqsection';
 import Footer from './footer';
+import { useLanguage } from "./LanguageProvider"
 function LandingPage() {
+    const { selectedLanguage, changeLanguage } = useLanguage();
     const [selectedItem, setSelectedItem] = useState('English');
     const handleSelect = (eventKey) => {
         setSelectedItem(eventKey);
+        changeLanguage(eventKey);
     };
-
+   
     return (
         <>
             <div className='container-fluid lg:min-h-[120dvh] background-img w-full flex flex-col p-0'>
@@ -31,9 +34,9 @@ function LandingPage() {
                                     </Dropdown.Toggle>
 
                                     <Dropdown.Menu variant='dark'>
-                                        <Dropdown.Item eventKey="English">English</Dropdown.Item>
-                                        <Dropdown.Item eventKey="Hindi">Hindi</Dropdown.Item>
-                                        <Dropdown.Item eventKey="Telugu">Telugu</Dropdown.Item>
+                                        <Dropdown.Item eventKey="English" >English</Dropdown.Item>
+                                        <Dropdown.Item eventKey="Hindi" >Hindi</Dropdown.Item>
+                                        <Dropdown.Item eventKey="Telugu" >Telugu</Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown>
 
@@ -72,7 +75,7 @@ function LandingPage() {
 
             <div className='container-fluid bg-black'>
                 <div className='row w-full relative text-white m-0 px-2 lg:px-2 py-[1.75rem] lg:py-14'>
-                    <div className='col-md-6 mb-1 lg:mb=0 text-position'>
+                    <div className='col-md-6 mb-1 lg:mb-0 text-position'>
                         <div className='h-full w-full flex flex-col justify-center '>
                             <h2 className=' text-3xl lg:text-5xl font-extrabold mb-3'>Enjoy on your TV</h2>
                             <p className=' text-xl md:text-2xl'>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
