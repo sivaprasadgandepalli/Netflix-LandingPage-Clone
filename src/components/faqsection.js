@@ -31,7 +31,7 @@ export default function Faqsection() {
 
     return (
         <div className='min-h-screen bg-black text-white pt-3 pb-5 relative px-3'>
-            <header className='text-[1.77rem] font-extrabold lg:text-[3rem] text-center  mt-3 mb-4'>Frequently Asked Questions.</header>
+            <header className='text-[1.80rem] font-extrabold lg:text-[3rem] text-center  mt-3 mb-4'>Frequently Asked Questions.</header>
             <div className='flex flex-col items-center justify-center'>
                 {questions.map((question, index) => (
                     <div className='w-full lg:w-[80%] mb-2 transition-all delay-150 duration-300 ease-in-out cursor-pointer' key={index} >

@@ -21,9 +21,9 @@ function LandingPage() {
             <div className='container-fluid lg:min-h-[120dvh] background-img w-full flex flex-col p-0'>
                 <div className='flex-grow w-full bg-[rgba(0,0,0,0.7)] z-10 relative pb-5'>
                     {/* navbar */}
-                    <nav className='flex justify-between absolute top-0 w-full px-5 pt-3'>
+                    <nav className='flex justify-between absolute top-0 w-full pad pt-3'>
                         <a href="https://fontmeme.com/netflix-font/"><img src="https://fontmeme.com/permalink/240323/93aad8e30a3b25d13395474bff8264a2.png" className='h-9 lg:h-14' alt="netflix-font" border="0" /></a>
-                        <ul className='inline-flex items-center gap-3'>
+                        <ul className='inline-flex items-center ul-gap'>
                             <li>
                                 <Dropdown onSelect={handleSelect} className='border-1 rounded-md'>
                                     <Dropdown.Toggle className='bg-[rgba(0,0,0,0.7)] text-white' variant='none' id="dropdown-basic">
@@ -39,7 +39,7 @@ function LandingPage() {
 
                             </li>
                             <li>
-                                <button className='bg-red-600 font-bold text-white rounded-md text-sm px-3 py-[.5rem]'>Sign In</button>
+                                <button className='bg-red-600 font-bold text-white rounded-md text-sm px-3 py-[.5rem] whitespace-nowrap'>Sign In</button>
                             </li>
                         </ul>
                     </nav>
@@ -57,7 +57,7 @@ function LandingPage() {
                                     Ready to watch? Enter your email to create or restart your membership.
                                 </p>
                             </div>
-                            <div className='flex items-center justify-center wrap text-white gap-3 lg:gap-2'>
+                            <div className='flex items-center justify-center wrap text-white ul-gap'>
                                 <input type='email' className='bg-[rgba(0,0,0,0.3)] border-1 py-3 pl-3 w-full md:w-[24rem] h-full' placeholder='email address' />
                                 <button className='bg-red-600 px-3 py-[0.7rem] text-2xl font-bold flex items-center h-full whitespace-nowrap'>
                                     Get Started <FaChevronRight className='inline-block' />
@@ -121,7 +121,7 @@ function LandingPage() {
                     <div className='col-md-6'>
                         <div className='h-full w-full flex flex-col items-start justify-center mask'>
 
-                            <img src={tv2} />
+                            <img src={require("../assets/watchEverywhere.png")} />
                         </div>
                     </div>
 

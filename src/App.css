@@ -21,6 +21,12 @@
     color: rgb(85, 85, 250);
 }
 
+.pad {
+    padding-inline: .75rem;
+}
+.ul-gap{
+    gap: 0.5rem;
+}
 @media only screen and (width<=600px) {
     .wrap {
         flex-wrap: wrap;
@@ -28,6 +34,13 @@
 }
 
 @media only screen and (min-width:1024px) {
+    .ul-gap{
+        gap: 0.75rem;
+    }
+    .pad {
+        padding-inline: 2rem;
+    }
+
     .text-position {
         text-align: inherit;
     }
