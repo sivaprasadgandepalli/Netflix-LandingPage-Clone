@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/Netflix-LandingPage-Clone/static/css/main.970a6fb7.css",
-    "main.js": "/Netflix-LandingPage-Clone/static/js/main.ab41f6f0.js",
+    "main.css": "/Netflix-LandingPage-Clone/static/css/main.249aa753.css",
+    "main.js": "/Netflix-LandingPage-Clone/static/js/main.319fba24.js",
     "static/js/453.f0cb673c.chunk.js": "/Netflix-LandingPage-Clone/static/js/453.f0cb673c.chunk.js",
     "static/media/enjoyOnTv.png": "/Netflix-LandingPage-Clone/static/media/enjoyOnTv.be7cad7613df0752ec64.png",
     "static/media/bg.jpg": "/Netflix-LandingPage-Clone/static/media/bg.e4cc86bbc288267d9bb3.jpg",
+    "static/media/watchEverywhere.png": "/Netflix-LandingPage-Clone/static/media/watchEverywhere.6c4a50b795604cb6d234.png",
     "static/media/video1.m4v": "/Netflix-LandingPage-Clone/static/media/video1.4c1a4787988d23b1039c.m4v",
     "static/media/netflixKids.png": "/Netflix-LandingPage-Clone/static/media/netflixKids.7d2dcea1799237cbe707.png",
     "static/media/download.png": "/Netflix-LandingPage-Clone/static/media/download.dd9c5549d557c1e5c000.png",
     "static/media/tv-2.png": "/Netflix-LandingPage-Clone/static/media/tv-2.ff81d825b399d890f9b4.png",
     "static/media/tv-1.png": "/Netflix-LandingPage-Clone/static/media/tv-1.0049bc70babc1f94cf88.png",
     "index.html": "/Netflix-LandingPage-Clone/index.html",
-    "main.970a6fb7.css.map": "/Netflix-LandingPage-Clone/static/css/main.970a6fb7.css.map",
-    "main.ab41f6f0.js.map": "/Netflix-LandingPage-Clone/static/js/main.ab41f6f0.js.map",
+    "main.249aa753.css.map": "/Netflix-LandingPage-Clone/static/css/main.249aa753.css.map",
+    "main.319fba24.js.map": "/Netflix-LandingPage-Clone/static/js/main.319fba24.js.map",
     "453.f0cb673c.chunk.js.map": "/Netflix-LandingPage-Clone/static/js/453.f0cb673c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.970a6fb7.css",
-    "static/js/main.ab41f6f0.js"
+    "static/css/main.249aa753.css",
+    "static/js/main.319fba24.js"
   ]
 }
