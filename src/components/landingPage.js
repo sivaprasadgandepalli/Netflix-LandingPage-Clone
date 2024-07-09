@@ -10,15 +10,22 @@ import tv2 from "../assets/tv-2.png";
 import kidsImage from "../assets/netflixKids.png";
 import Faqsection from './faqsection';
 import Footer from './footer';
-import { useLanguage } from "./LanguageProvider"
+import { useLanguage } from "./LanguageProvider";
+import en from "../translations/en";
+import hi from "../translations/hi";
+const translations = {
+    en,
+    hi,
+};
 function LandingPage() {
-    const { selectedLanguage, changeLanguage } = useLanguage();
+    const { language, setLanguage } = useLanguage();
+    const t = translations[language];
     const [selectedItem, setSelectedItem] = useState('English');
     const handleSelect = (eventKey) => {
         setSelectedItem(eventKey);
-        changeLanguage(eventKey);
+        setLanguage(eventKey)
     };
-   
+
     return (
         <>
             <div className='container-fluid lg:min-h-[120dvh] background-img w-full flex flex-col p-0'>
@@ -86,7 +93,8 @@ function LandingPage() {
                             {/* <video controls loop autoPlay="true" className='w-full h-full'>
                                 <source src={v1} type="video/mp4" />
                             </video> */}
-                            <img src={require("../assets/enjoyOnTv.png")} className='mask relative' />
+                            <img src={require("../assets/enjoyOnTv.png")} className='mask relative' alt='
+                            enjoyOnTv.png'/>
                         </div>
                     </div>
 
@@ -98,7 +106,7 @@ function LandingPage() {
                 <div className='row flex-row-reverse w-full relative text-white m-0 px-2 lg:px-2 py-[1.75rem] lg:py-14'>
                     <div className='col-md-6 order-2'>
                         <div className='h-full w-full flex flex-col items-start justify-center mask'>
-                            <img src={img1} />
+                            <img src={img1} alt='shows' />
                         </div>
                     </div>
                     <div className='col-md-6 order-1 mb-1 lg:mb=0 text-left text-position'>
@@ -124,7 +132,7 @@ function LandingPage() {
                     <div className='col-md-6'>
                         <div className='h-full w-full flex flex-col items-start justify-center mask'>
 
-                            <img src={require("../assets/watchEverywhere.png")} />
+                            <img src={require("../assets/watchEverywhere.png")} alt='watchEverywhere.png' />
                         </div>
                     </div>
 
@@ -136,7 +144,7 @@ function LandingPage() {
                 <div className='row flex-row-reverse w-full relative text-white m-0 px-2 lg:px-2 py-[1.75rem] lg:py-14'>
                     <div className='col-md-6 order-2'>
                         <div className='h-full w-full flex flex-col items-start justify-center mask'>
-                            <img src={kidsImage} />
+                            <img src={kidsImage} alt='kids image' />
                         </div>
                     </div>
                     <div className='col-md-6 order-1 mb-1 lg:mb=0 text-left text-position'>
