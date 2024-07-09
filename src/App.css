@@ -10,7 +10,6 @@
     text-align: center;
 }
 
-
 #footer ul li {
     text-decoration: underline;
     transition: color .5s ease-in-out;
@@ -21,12 +20,41 @@
     color: rgb(85, 85, 250);
 }
 
+.dark-theme {
+    background-color: #000;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 0.25rem;
+}
+
+.dark-theme input {
+    background-color: #000;
+    color: white;
+    border: 1px solid #555;
+}
+
+.dark-theme input:focus {
+    background-color: #000;
+    color: white;
+}
+
+.dark-theme label {
+    color: #bbb;
+}
+
 .pad {
     padding-inline: .75rem;
 }
-.ul-gap{
+
+.ul-gap {
     gap: 0.5rem;
 }
+
+#signinPage ul li{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
 @media only screen and (width<=600px) {
     .wrap {
         flex-wrap: wrap;
@@ -34,9 +62,10 @@
 }
 
 @media only screen and (min-width:1024px) {
-    .ul-gap{
+    .ul-gap {
         gap: 0.75rem;
     }
+
     .pad {
         padding-inline: 2rem;
     }

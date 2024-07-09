@@ -11,6 +11,7 @@ import kidsImage from "../assets/netflixKids.png";
 import Faqsection from './faqsection';
 import Footer from './footer';
 import { useLanguage } from "./LanguageProvider";
+import { Link } from 'react-router-dom';
 import en from "../translations/en";
 import hi from "../translations/hi";
 const translations = {
@@ -49,7 +50,12 @@ function LandingPage() {
 
                             </li>
                             <li>
-                                <button className='bg-red-600 font-bold text-white rounded-md text-sm px-3 py-[.5rem] whitespace-nowrap'>Sign In</button>
+                                <Link
+                                    to='/SignInPage'
+                                    className='bg-red-600 font-bold text-white rounded-md text-sm px-3 py-[.5rem] whitespace-nowrap no-underline'
+                                >
+                                    Sign In
+                                </Link>
                             </li>
                         </ul>
                     </nav>
