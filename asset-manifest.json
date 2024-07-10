@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Netflix-LandingPage-Clone/static/css/main.a92fad8b.css",
-    "main.js": "/Netflix-LandingPage-Clone/static/js/main.dc26149f.js",
+    "main.js": "/Netflix-LandingPage-Clone/static/js/main.cfeb3fa6.js",
     "static/js/453.f0cb673c.chunk.js": "/Netflix-LandingPage-Clone/static/js/453.f0cb673c.chunk.js",
     "static/media/enjoyOnTv.png": "/Netflix-LandingPage-Clone/static/media/enjoyOnTv.be7cad7613df0752ec64.png",
     "static/media/bg.jpg": "/Netflix-LandingPage-Clone/static/media/bg.e4cc86bbc288267d9bb3.jpg",
@@ -13,11 +13,11 @@
     "static/media/tv-1.png": "/Netflix-LandingPage-Clone/static/media/tv-1.0049bc70babc1f94cf88.png",
     "index.html": "/Netflix-LandingPage-Clone/index.html",
     "main.a92fad8b.css.map": "/Netflix-LandingPage-Clone/static/css/main.a92fad8b.css.map",
-    "main.dc26149f.js.map": "/Netflix-LandingPage-Clone/static/js/main.dc26149f.js.map",
+    "main.cfeb3fa6.js.map": "/Netflix-LandingPage-Clone/static/js/main.cfeb3fa6.js.map",
     "453.f0cb673c.chunk.js.map": "/Netflix-LandingPage-Clone/static/js/453.f0cb673c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a92fad8b.css",
-    "static/js/main.dc26149f.js"
+    "static/js/main.cfeb3fa6.js"
   ]
 }
